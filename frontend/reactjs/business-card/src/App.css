@@ -1,0 +1,23 @@
+.card-container {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.card-item {
+  background-color: #1A1B21;
+  width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #f5f5f5;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.profile-header {
+  text-align: center;
+}

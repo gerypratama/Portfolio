@@ -1,0 +1,90 @@
+.profile-header {
+  text-align: center;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.profile-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #f3bf99;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  width: 115px;
+  height: 35px;
+  border: none;
+  border-radius: 6px;
+}
+
+#email {
+  background-color: #d1d5db;
+  color: #374151;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#email:hover {
+    background-color: #909090;
+}
+
+#linkedin {
+  background-color: #5093e2;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#linkedin:hover {
+    background-color: #2965ab;
+}
+
+.content-container {
+  padding: 22px;
+  margin: 16px 8px;
+}
+
+.subtitle {
+  margin-bottom: 0;
+  line-height: 200%;
+  font-size: 16;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+  text-align: justify;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.soc-med-bar {
+  background-color: #161619;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.soc-med-bar > img {
+  opacity: 0.35;
+}
+
+.soc-med-bar > img:hover {
+  opacity: 0.65;
+}
