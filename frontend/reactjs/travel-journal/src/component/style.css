@@ -1,0 +1,86 @@
+section {
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #F55A5A;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.navbar > h5 {
+    color: white;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.story--card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.story--lead-image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.story--detail {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.story--content {
+    margin-top: 0;
+}
+
+.story--geo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.story--location {
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-right: 6px;
+}
+
+.story--link {
+    color: #918E9B;
+    line-height: 12px;
+}
+
+.location-pin {
+    width: 7px;
+    height: 9.55px;
+    margin-right: 2px;
+}
+
+.story--title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.story--date {
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.story--paragraph {
+    line-height: 15px;
+}
