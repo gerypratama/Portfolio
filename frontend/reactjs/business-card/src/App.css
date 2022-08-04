@@ -3,11 +3,10 @@
   padding: 30px;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
 }
 
 .card-item {
-  background-color: #1A1B21;
+  background-color: #1a1b21;
   width: 320px;
   border-radius: 10px;
   overflow: hidden;
