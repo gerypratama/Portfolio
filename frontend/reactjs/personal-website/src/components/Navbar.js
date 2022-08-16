@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
             <div className="container py-1">
-                <a className="navbar-brand text-uppercase" href="#">gery.dev</a>
+                <a className="navbar-brand text-uppercase" href='#'>gery.dev</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -14,16 +14,16 @@ const Navbar = () => {
                             <a className="nav-link" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Tech Stacks</a>
+                            <a className="nav-link" href="#stacks">Tech Stacks</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Works</a>
+                            <a className="nav-link" href="#works">Works</a>
                         </li>
                         <li>
-                            <a className="btn btn-warning" href="#" role="button">Say hi!</a>
+                            <a className="btn btn-warning" href="#contact" role="button">Say hi!</a>
                         </li>
                     </ul>
                 </div>

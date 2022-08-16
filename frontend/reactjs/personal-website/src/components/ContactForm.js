@@ -1,6 +1,6 @@
 const ContactForm = () => {
     return (
-        <form className="p-5 text-secondary d-flex flex-column align-items-center" >
+        <form className="p-5 text-secondary d-flex flex-column align-items-center" id="contact">
             <h2 className="mb-5 text-center display-5 fw-bold">Contact Form</h2>
             <div className="mb-3" style={{ "width": "60%" }}>
                 <label htmlFor="exampleInputName" className="form-label">How may I call you?</label>

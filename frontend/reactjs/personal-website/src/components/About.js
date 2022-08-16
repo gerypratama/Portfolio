@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <section>
+        <section id="about">
             <div className='container-fluid bg-primary py-4'>
                 <div className='row justify-content-around'>
                     <div className='col text-center mb-4'>
